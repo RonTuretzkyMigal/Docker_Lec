@@ -1,2 +1,1 @@
-FROM ubuntu
-RUN apt-get update && apt-get install -y samtools
+FROM biocontainers/blast:2.2.31
